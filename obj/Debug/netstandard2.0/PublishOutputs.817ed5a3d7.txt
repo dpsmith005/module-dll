@@ -1,0 +1,4 @@
+E:\OneDrive - WellSpan Health\WindowsPowerShell\scripts\moduleDll\bin\Debug\netstandard2.0\publish\moduleDll.dll
+E:\OneDrive - WellSpan Health\WindowsPowerShell\scripts\moduleDll\bin\Debug\netstandard2.0\publish\moduleDll.pdb
+E:\OneDrive - WellSpan Health\WindowsPowerShell\scripts\moduleDll\bin\Debug\netstandard2.0\publish\HtmlAgilityPack.dll
+E:\OneDrive - WellSpan Health\WindowsPowerShell\scripts\moduleDll\bin\Debug\netstandard2.0\publish\moduleDll.deps.json

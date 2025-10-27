@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = moduleDll
+build_property.ProjectDir = E:\OneDrive - WellSpan Health\SourceCode\module-dll\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
