@@ -1,0 +1,46 @@
+    [Cmdlet(VerbsCommon.Get, "CmdName")]
+    [OutputType(typeof(CmdName))]
+    public class GetCmdNameCmdlet : PSCmdlet
+    {
+        [Parameter(
+           Mandatory = true,
+           Position = 0,
+           ValueFromPipeline = true,
+           ValueFromPipelineByPropertyName = true)]
+        public int MyNumber { get; set; }
+
+        [Parameter(
+            Mandatory = true,
+            Position = 1,
+            ValueFromPipeline = true,
+            ValueFromPipelineByPropertyName = true)]
+        public string MyName { get; set; }
+        
+        [Parameter(
+            Position = 2,
+            ValueFromPipelineByPropertyName = true)]
+        public bool MyBool { get; set; }
+        
+        [Parameter(
+            Position = 3,
+            ValueFromPipelineByPropertyName = true)]
+        public decimal MyDecimal { get; set; }
+        
+        protected override void BeginProcessing()
+        {
+            WriteVerbose("Start!");
+        }
+        protected override void ProcessRecord()
+        {
+            WriteVerbose("Process");
+            var web = new Htmlweb();
+        }
+        protected override void EndProcessing()
+        {
+            WriteVerbose("Finish!");
+        }
+        protected override void StopProcessing()
+        {
+            WriteObject("To handle abnormal termination");
+        }
+    }
